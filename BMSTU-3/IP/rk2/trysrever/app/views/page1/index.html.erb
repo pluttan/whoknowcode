@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Плютто Андрей
+        ИУ6-32Б
+        Вариант 21 (В ЭУ 17)
+        Дан массив чисел. Определить среднее арифметическое значение
+        положительных элементов массива и поместить его на место
+        первого кратного 7 элемента
+    </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 50vw;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Плютто Андрей</h1>
+        <h2>ИУ6-32Б</h2>
+        <h2>Вариант 21 (В ЭУ 17)</h2>
+        <h3>
+            Дан массив чисел. Определить среднее арифметическое значение <br/> 
+            положительных элементов массива и поместить его на место <br/> 
+            первого кратного 7 элемента
+        </h3>
+        <form action="http://localhost:3000/result" method="get">
+            <div class="form-group">
+                <label for="inputText">Введите массив:</label>
+                <input type="text" id="inputText" name="inputText" value = "100 -100 200 7000 20 -19 -17 6" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">
+                    Определить среднее арифметическое значение положительных элементов<br/> 
+                    и поместить его на место первого кратного 7 элемента
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

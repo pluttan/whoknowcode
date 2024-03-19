@@ -1,0 +1,36 @@
+Started GET "/result?inputText=100+-100+200+7000+20+-19+-17+6" for ::1 at 2023-11-14 10:21:50 +0300
+Processing by Page2Controller#result as HTML
+  Parameters: {"inputText"=>"100 -100 200 7000 20 -19 -17 6"}
+Param inputText: 100 -100 200 7000 20 -19 -17 6
+Param controller: page2
+Param action: result
+  Rendering page2/result.html.erb
+  Rendered page2/result.html.erb (Duration: 0.7ms | Allocations: 687)
+Completed 200 OK in 10ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 7818)
+
+
+Started GET "/" for ::1 at 2023-11-14 10:30:32 +0300
+Processing by Page1Controller#index as HTML
+  Rendering page1/index.html.erb
+  Rendered page1/index.html.erb (Duration: 0.6ms | Allocations: 424)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 1478)
+
+
+Started GET "/result?inputText=100+-100+200+7000+20+-19+-17+6" for ::1 at 2023-11-14 10:30:34 +0300
+Processing by Page2Controller#result as HTML
+  Parameters: {"inputText"=>"100 -100 200 7000 20 -19 -17 6"}
+Param inputText: 100 -100 200 7000 20 -19 -17 6
+Param controller: page2
+Param action: result
+  Rendering page2/result.html.erb
+  Rendered page2/result.html.erb (Duration: 0.1ms | Allocations: 11)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 479)
+
+
+Started GET "/" for ::1 at 2023-11-14 10:30:39 +0300
+Processing by Page1Controller#index as HTML
+  Rendering page1/index.html.erb
+  Rendered page1/index.html.erb (Duration: 0.1ms | Allocations: 8)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 366)
+
+
